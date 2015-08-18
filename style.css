@@ -1,0 +1,203 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+header {
+  margin: 0px;
+  width: 100%;
+  height: 75px;
+  background-color: rgb(241, 241, 241);
+}
+nav {
+  height: 59px;
+  width: 100%;
+  border-bottom: 1px solid #ebebeb;
+}
+
+body > aside {
+  height: 43px;
+  color: rgb(128, 128, 128);
+  line-height: 43px;
+  margin: 0 0 0 120px;
+  display: block;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+main {
+  width: 512px;
+  margin: 0 254px 0 120px;
+  padding: 0 8px;
+}
+ul {
+  list-style: none;
+}
+ul.result {
+  border-bottom-color: rgb(235, 235, 235);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding: 0;
+}
+.clearfix {
+  overflow: hidden;
+}
+
+
+li.result {
+  width: 512px;
+  height: 92px;
+  margin-bottom: 23px;
+  margin-top: 15px;
+}
+aside.related-searches {
+  border-bottom-color: rgb(235, 235, 235);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  width: 100%;
+  display: block;
+}
+.related-searches {
+  float: left;
+  padding-right: 16px;
+  margin-bottom: 16px;
+}
+.related-searches ul li a{
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  color: rgb(26, 13, 171);
+}
+.related-searches ul {
+  margin: 0px;
+  padding: 0px;
+}
+.related-searches h4 {
+  color: #808080;
+  font-size: 18px;
+  line-height: 18px;
+  padding-bottom: 7px;
+  margin: 0;
+  font-family: arial, sans-serif;
+  font-weight: normal;
+}
+.pagination {
+  width: 100%;
+}
+.pagination img {
+  width: 310px;
+  margin: 0 auto;
+  display: block;
+}
+ol {
+  display: inline-block;
+  list-style: none;
+}
+ol>li {
+  float: left;
+  margin-right: 10px;
+  color: blue;
+}
+.pagination>div {
+  padding-left: 140px;
+}
+footer {
+  height: 84px;
+  width: 100%;
+  display: block;
+  background-color: rgb(241, 241, 241);
+  padding-top: 40px;
+}
+.main-menu > ul {
+    list-style-type: none;
+    padding: 0;
+  }
+.main-menu li {
+    display: inline-block;
+    margin: 0 8px;
+    padding: 0 8px;
+    line-height: 59px;
+    font-family: arial,sans-serif;
+     color: #777;
+}
+li.selected {
+	margin-left: 128px;
+	color: #dd4b39;
+	border-bottom: 3px solid #dd4b39;
+}
+.main-menu button {
+	border: 1px solid #c6c6c6;;
+	background-color: #f5f5f5;
+	border-radius: 2px;
+	height: 27px;
+  	line-height: 27px;
+  	width: 72px;
+	padding: 0 8px;
+	float: right;
+  	position: absolute;
+  	top: 20px;
+  	right: 28px;
+  	background: url('images/googlelogo.png');
+    background-size: 10px 10px;
+
+}
+/* LENORA'S CODE */
+img {
+   width: 10em;
+   height: auto;
+   padding: 1em 0 0 0;
+}
+
+#searchbox {
+  float: left;
+  width: 60em;
+  height: 3em;
+  margin: 2em 50em -30em 17em;
+}
+
+#searchbutton{
+  float: right;
+  margin: 2em 40em;
+  width: 8em;
+  height: 3.5em;
+  background-color: blue;
+}
+
+#signin {
+  float: left;
+  margin: -5.5em 110em;
+  height: 3.5em;
+  width: 7em;
+  background-color: blue;
+  color: white;
+}
+
+::-webkit-input-placeholder {
+   color: black;
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 16px;
+
+}
+
+.result h3 {
+  color: #1a0dab;
+  margin-top: 23px;
+  margin-bottom: 1px;
+}
+.result a {
+  color: green;
+}
+.result span {
+  color: black;
+}
+.result span > span {
+  color: grey;
+}
+.result .ablue {
+  color: #1a0dab;
+}
+.result .dgrey {
+  color:grey;
+}
